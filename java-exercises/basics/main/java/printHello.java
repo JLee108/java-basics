@@ -8,7 +8,12 @@ Alexandra Abramov
 
 public class printHello {
 
-    public static void main(String[] args){
-        System.out.println("Hello");
+    public static void main(String[] args) {
+        String message = getMessage();
+        System.out.println(message);
+    }
+
+    public static String getMessage(){
+        return "Hello";
     }
 }
